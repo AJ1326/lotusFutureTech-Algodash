@@ -4202,3 +4202,21 @@ footer .copyrights > a:focus {
 .sidemenu_btn span {
   background: #19f !important;
 }
+.section-container {
+  height: 100%;
+  width: 100%;
+}
+.row {
+  height: inherit;
+}
+.company-container-section {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.company-txt-section {
+  line-height: 30px;
+  font-size: 16px;
+}

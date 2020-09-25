@@ -534,11 +534,11 @@ jQuery(function ($) {
 
 
     /*----- FancyBox -----*/
-    $('[data-fancybox]').fancybox({
-        protect: true,
-        animationEffect: "fade",
-        hash: null,
-    });
+    // $('[data-fancybox]').fancybox({
+    //     protect: true,
+    //     animationEffect: "fade",
+    //     hash: null,
+    // });
 
 
     /* ------ Revolution Slider ------ */
@@ -985,6 +985,29 @@ jQuery(function ($) {
         });
         new WOW().init();
     }
+
+    // var lastScrollTop = 0;
+    // $(window).scroll(function(event){
+    //     var addr = '#section1';
+    //     console.log('addr', addr)
+    //     var st = $(this).scrollTop();
+    //     if (st > lastScrollTop){
+    //         // downscroll code
+    //         var abc = document.getElementById(addr).previousSibling;
+    //         console.log('addr down', abc)
+    //         document.getElementById(abc).scrollIntoView({
+    //             behavior: 'smooth'
+    //         });
+    //     } else {
+    //         // upscroll code
+    //         var xyz = document.getElementById(addr).nextSibling;
+    //         console.log('addr up', xyz)
+    //         document.getElementById(xyz).scrollIntoView({
+    //             behavior: 'smooth'
+    //         });
+    //     }
+    //     lastScrollTop = st;
+    // });
 
 
 });

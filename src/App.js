@@ -50,22 +50,25 @@ function App() {
               <nav className="side-nav">
                 <ul className="navbar-nav w-100">
                   <li className="nav-item active">
-                    <a className="nav-link pagescroll" href="#home">Cloud as service</a>
+                    <a className="nav-link pagescroll" href="#section1">Lotus Futuretech</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#creative">Banking as a service</a>
+                    <a className="nav-link pagescroll" href="#section2">Cloud as service</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#corporate">Energy as a service</a>
+                    <a className="nav-link pagescroll" href="#section3">Banking as a service</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#social">Consulting and developement</a>
+                    <a className="nav-link pagescroll" href="#section4">Energy as a service</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#seo">Design and PR</a>
+                    <a className="nav-link pagescroll" href="#section5">Consulting and developement</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#marketing">About the graph</a>
+                    <a className="nav-link pagescroll" href="#section6">Design and PR</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link pagescroll" href="#section7">About the graph</a>
                   </li>
                   {/*<li className="nav-item">*/}
                   {/*  <a className="nav-link pagescroll" href="#agency">agency</a>*/}
@@ -92,16 +95,16 @@ function App() {
 
         <canvas className='connecting-dots'></canvas>
 
-        <section className="single-items center-block center-block item-one parallaxie full-screen" id="home">
+        <section className="single-items center-block center-block item-one parallaxie full-screen" id="section1">
           <div className="container">
             <div className="row">
               <div className="col-md-12 col-sm-12">
                 <div className="item-titles whitecolor text-center">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a>Lotus <span className="company-name">Futuretech</span>
+                    <a className="company-name">Lotus <span>Futuretech</span>
                     </a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp intro-text" data-wow-delay="350ms">
+                  <p className="top25 bottom25 wow fadeInUp intro-text company-txt-section" data-wow-delay="350ms">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                   <a className="button btnwhite btn-gradient-hvr"
@@ -112,117 +115,117 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="single-items center-block item-two parallaxie full-screen" id="creative">
-          <div className="container">
+        <section className="single-items center-block item-two parallaxie full-screen" id="section2">
+          <div className="section-container">
             <div className="row">
-              <div className="col-md-5 col-sm-8 background-dark-text-section">
+              <div className="col-md-6 col-sm-8 background-dark-text-section company-container-section">
                 <div className="item-titles whitecolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-two">Cloud<span> as a service</span></a>
+                    <a>Cloud<span> as a service</span></a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="single-items center-block item-three parallaxie full-screen" id="corporate">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-5 offset-md-7 col-sm-8 offset-sm-4 background-dark-text-section">
-                <div className="item-titles whitecolor text-right">
-                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-three">Banking<span> as a service</span></a>
-                  </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
+                  <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
-                     data-fancybox="group-three"
-                     href="">View More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="single-items center-block item-four parallaxie full-screen" id="social">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-5 col-sm-8 background-dark-text-section">
-                <div className="item-titles whitecolor">
-                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-four"
-                       href="">Energy<span> as a service</span></a>
-                  </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
-                     data-fancybox="group-four"
-                     href="">View More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="single-items center-block item-five parallaxie full-screen" id="seo">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-5 col-sm-8 background-light-text-section">
-                <div className="item-titles darkcolor">
-                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-four"
-                       href="">Consulting and <span>Development</span></a>
-                  </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
-                     data-fancybox="group-four"
-                     href="">View More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="single-items center-block item-six parallaxie full-screen" id="marketing">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-5 col-sm-8 background-dark-text-section">
-                <div className="item-titles whitecolor">
-                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-six"
-                      >Design and <span>PR</span>
-                    </a>
-                  </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
-                     data-fancybox="group-six" href="">View
+                     href="">View
                     More</a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="single-items center-block item-seven parallaxie full-screen" id="agency">
-          <div className="container">
+        <section className="single-items center-block item-three parallaxie full-screen" id="section3">
+          <div className="section-container">
             <div className="row">
-              <div className="col-md-5 offset-md-7 col-sm-8 offset-sm-4 background-light-text-section">
-                <div className="item-titles darkcolor text-right">
-                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-seven"
-                       >About the;
-                      <span> graph</span></a>
+              <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-dark-text-section company-container-section">
+                <div className="item-titles whitecolor text-right">
+                  <h2 className="font-xlight" data-wow-delay="300ms">
+                    <a>Banking<span> as a service</span></a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
+                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <button className="button btnprimary btn-gradient-hvr" data-wow-delay="400ms"
+                  >View More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="single-items center-block item-four parallaxie full-screen" id="section4">
+          <div className="section-container">
+            <div className="row">
+              <div className="col-md-6 col-sm-8 background-dark-text-section company-container-section">
+                <div className="item-titles whitecolor">
+                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
+                    <a
+                       href="">Energy<span> as a service</span></a>
+                  </h2>
+                  <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
-                     data-fancybox="group-six" href="">View
+                     href="">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="single-items center-block item-five parallaxie full-screen" id="section5">
+          <div className="section-container">
+            <div className="row">
+              <div className="col-md-6 col-sm-8 background-light-text-section company-container-section">
+                <div className="item-titles darkcolor">
+                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
+                    <a
+                       href="">Consulting and <span>Development</span></a>
+                  </h2>
+                  <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
+                     href="">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="single-items center-block item-six parallaxie full-screen" id="section6">
+          <div className="section-container">
+            <div className="row">
+              <div className="col-md-6 col-sm-8 background-dark-text-section company-container-section">
+                <div className="item-titles whitecolor">
+                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
+                    <a
+                      >Design and <span>PR</span>
+                    </a>
+                  </h2>
+                  <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
+                     href="">View
+                    More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="single-items center-block item-seven parallaxie full-screen" id="section7">
+          <div className="section-container">
+            <div className="row">
+              <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-light-text-section company-container-section">
+                <div className="item-titles darkcolor text-right">
+                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
+                    <a
+                       >About the
+                      <span> graph</span></a>
+                  </h2>
+                  <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
+                     href="">View
                     More</a>
                 </div>
               </div>
