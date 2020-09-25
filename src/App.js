@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../src/images/lotus-logo1.png';
+import logo from '../src/images/logo-single-black.png';
 import coin from '../src/images/cloud-computing.png';
 import lotus from '../src/images/lotus-flower.png';
 import './App.css';
@@ -174,7 +174,7 @@ function App() {
         <section className="single-items center-block item-five parallaxie full-screen" id="section5">
           <div className="section-container">
             <div className="row">
-              <div className="col-md-6 col-sm-8 background-light-text-section company-container-section">
+              <div className="col-md-6 offset-md-6 col-sm-8 background-light-text-section company-container-section">
                 <div className="item-titles darkcolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a
