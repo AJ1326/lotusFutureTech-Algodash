@@ -2324,7 +2324,7 @@ i::before,i::after{
 
 /*Single Porfolio*/
 .item-one {
-  background: url('./images/connect-women.jpg') no-repeat;
+  background: url('./images/connect-women--bg.png') no-repeat;
 }
 .item-two {
   background: url('./images/taylor-vick-M5tzZtFCOfs-unsplash.jpg') no-repeat;
@@ -3793,8 +3793,8 @@ textarea:-ms-input-placeholder {
 /* Footer*/
 /*-------------------------------*/
 footer .copyrights{
-  font-size: 13px;
-  margin-top: 20px;
+  font-size: 16px;
+  margin-top: 40px;
 }
 .footer-logo {
   display: inline-block;
@@ -4170,7 +4170,7 @@ footer .copyrights > a:focus {
 }
 
 .lotusFooter {
-  width: 30px;
+  width: 42px;
 }
 
 .tothetop {
@@ -4179,4 +4179,26 @@ footer .copyrights > a:focus {
 
 .tothetop:hover .tothetop:focus {
   width: 80px;
+}
+
+.intro-text {
+  padding-left: 24%;
+  padding-right: 30%;
+}
+
+.company-name {
+  font-weight: 600;
+}
+
+.background-dark-text-section {
+  background-color: #00000078;
+}
+.background-light-text-section {
+  background-color: #ffffff6b;
+}
+.mt20 {
+  margin-top: 20px !important;
+}
+.sidemenu_btn span {
+  background: #19f !important;
 }

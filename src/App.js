@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../src/images/lotus-logo1.png';
-import coin from '../src/images/profits.png';
+import coin from '../src/images/cloud-computing.png';
 import lotus from '../src/images/lotus-flower.png';
 import './App.css';
 import './particles/particle.css';
@@ -50,39 +50,40 @@ function App() {
               <nav className="side-nav">
                 <ul className="navbar-nav w-100">
                   <li className="nav-item active">
-                    <a className="nav-link pagescroll" href="#home">Home</a>
+                    <a className="nav-link pagescroll" href="#home">Cloud as service</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#creative">Creative</a>
+                    <a className="nav-link pagescroll" href="#creative">Banking as a service</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#corporate">Corporate</a>
+                    <a className="nav-link pagescroll" href="#corporate">Energy as a service</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#social">Social</a>
+                    <a className="nav-link pagescroll" href="#social">Consulting and developement</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#seo">SEO</a>
+                    <a className="nav-link pagescroll" href="#seo">Design and PR</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#marketing">Marketing</a>
+                    <a className="nav-link pagescroll" href="#marketing">About the graph</a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#agency">agency</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#site-footer">Contact</a>
-                  </li>
+                  {/*<li className="nav-item">*/}
+                  {/*  <a className="nav-link pagescroll" href="#agency">agency</a>*/}
+                  {/*</li>*/}
+                  {/*<li className="nav-item">*/}
+                  {/*  <a className="nav-link pagescroll" href="#site-footer">Contact</a>*/}
+                  {/*</li>*/}
                 </ul>
               </nav>
 
               <div className="side-footer w-100">
-                <ul className="social-icons-simple white top40">
-                  <li><a ><i className="fa fa-facebook"></i> </a></li>
-                  <li><a ><i className="fa fa-instagram"></i> </a></li>
-                  <li><a ><i className="fa fa-twitter"></i> </a></li>
-                </ul>
-                <p className="whitecolor">&copy; 2020 Lotus Futuretech.</p>
+                <img className="lotusFooter" src={lotus} alt="Lotus Futuretech" />
+                {/*<ul className="social-icons-simple white top40">*/}
+                {/*  <li><a ><i className="fa fa-facebook"></i> </a></li>*/}
+                {/*  <li><a ><i className="fa fa-instagram"></i> </a></li>*/}
+                {/*  <li><a ><i className="fa fa-twitter"></i> </a></li>*/}
+                {/*</ul>*/}
+                <p className="whitecolor mt20">&copy; 2020 Lotus Futuretech.</p>
               </div>
             </div>
           </div>
@@ -97,10 +98,12 @@ function App() {
               <div className="col-md-12 col-sm-12">
                 <div className="item-titles whitecolor text-center">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a href="http://www.themesindustry.com/html/xeone/gallery-detail.html">Lotus <span>Futuretech</span>
+                    <a>Lotus <span className="company-name">Futuretech</span>
                     </a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">graphics, branding, development</p>
+                  <p className="top25 bottom25 wow fadeInUp intro-text" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
                   <a className="button btnwhite btn-gradient-hvr"
                      href="http://www.themesindustry.com/html/xeone/gallery-detail.html wow fadeInUp"
                      data-wow-delay="400ms">View More</a>
@@ -112,14 +115,14 @@ function App() {
         <section className="single-items center-block item-two parallaxie full-screen" id="creative">
           <div className="container">
             <div className="row">
-              <div className="col-md-5 col-sm-8">
-                <div className="item-titles darkcolor">
+              <div className="col-md-5 col-sm-8 background-dark-text-section">
+                <div className="item-titles whitecolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-two"
-                       href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg"><span>Bringing The Cloud Closer To You</span></a>
+                    <a data-fancybox="group-two">Cloud<span> as a service</span></a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">Decentralised edge Kubernetes
-                    compute and S3 storage for faster, more secure, more sustainable applications.</p>
+                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
                 </div>
               </div>
             </div>
@@ -128,16 +131,17 @@ function App() {
         <section className="single-items center-block item-three parallaxie full-screen" id="corporate">
           <div className="container">
             <div className="row">
-              <div className="col-md-5 offset-md-7 col-sm-8 offset-sm-4">
+              <div className="col-md-5 offset-md-7 col-sm-8 offset-sm-4 background-dark-text-section">
                 <div className="item-titles whitecolor text-right">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-three"
-                       href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">XeOne <span>Corporate</span></a>
+                    <a data-fancybox="group-three">Banking<span> as a service</span></a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">media, culture, colors</p>
+                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      data-fancybox="group-three"
-                     href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">View More</a>
+                     href="">View More</a>
                 </div>
               </div>
             </div>
@@ -146,16 +150,18 @@ function App() {
         <section className="single-items center-block item-four parallaxie full-screen" id="social">
           <div className="container">
             <div className="row">
-              <div className="col-md-5 col-sm-8">
-                <div className="item-titles darkcolor">
+              <div className="col-md-5 col-sm-8 background-dark-text-section">
+                <div className="item-titles whitecolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a data-fancybox="group-four"
-                       href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Social <span> Media</span></a>
+                       href="">Energy<span> as a service</span></a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">creative, brandind, graphics</p>
+                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      data-fancybox="group-four"
-                     href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">View More</a>
+                     href="">View More</a>
                 </div>
               </div>
             </div>
@@ -164,16 +170,18 @@ function App() {
         <section className="single-items center-block item-five parallaxie full-screen" id="seo">
           <div className="container">
             <div className="row">
-              <div className="col-md-5 offset-md-7 col-sm-8 offset-sm-4">
-                <div className="item-titles whitecolor text-right">
+              <div className="col-md-5 col-sm-8 background-light-text-section">
+                <div className="item-titles darkcolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-five"
-                       href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Optimized <span>SEO</span></a>
+                    <a data-fancybox="group-four"
+                       href="">Consulting and <span>Development</span></a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">The integration of web fonts has
-                    always been one of the largest contributing factors to diversity in the overall look and feel of
-                    websites today vs, yesterday. Fonts, just like images.</p>
-                  <p className=" wow fadeInUp" data-wow-delay="400ms">fashion,graphics</p>
+                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
+                     data-fancybox="group-four"
+                     href="">View More</a>
                 </div>
               </div>
             </div>
@@ -182,16 +190,18 @@ function App() {
         <section className="single-items center-block item-six parallaxie full-screen" id="marketing">
           <div className="container">
             <div className="row">
-              <div className="col-md-5 col-sm-8">
-                <div className="item-titles darkcolor">
+              <div className="col-md-5 col-sm-8 background-dark-text-section">
+                <div className="item-titles whitecolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a data-fancybox="group-six"
-                       href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">XeOne <span>Marketing</span>
+                      >Design and <span>PR</span>
                     </a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">fashion, brands, colors</p>
+                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
-                     data-fancybox="group-six" href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">View
+                     data-fancybox="group-six" href="">View
                     More</a>
                 </div>
               </div>
@@ -201,59 +211,61 @@ function App() {
         <section className="single-items center-block item-seven parallaxie full-screen" id="agency">
           <div className="container">
             <div className="row">
-              <div className="col-md-5 offset-md-7 col-sm-8 offset-sm-4">
-                <div className="item-titles whitecolor text-right">
+              <div className="col-md-5 offset-md-7 col-sm-8 offset-sm-4 background-light-text-section">
+                <div className="item-titles darkcolor text-right">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a data-fancybox="group-seven"
-                       href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Cultivate &amp;
-                      <span>Inspired</span></a>
+                       >About the;
+                      <span> graph</span></a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">The integration of web fonts has
-                    always been one of the largest contributing factors to diversity in the overall look and feel of
-                    websites today vs, yesterday. Fonts, just like images. </p>
-                  <p className="wow fadeInUp" data-wow-delay="300ms">fruits,vegetables</p>
+                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
+                     data-fancybox="group-six" href="">View
+                    More</a>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="single-items center-block item-eight parallaxie full-screen">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-5 col-sm-8">
-                <div className="item-titles darkcolor">
-                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-eight"
-                       href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Best <span>Solutions</span></a>
-                  </h2>
-                  <p className="top25 bottom25"></p>
-                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="350ms"
-                     data-fancybox="group-eight"
-                     href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">View More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="single-items center-block item-nine parallaxie full-screen">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-5 offset-md-7 col-sm-8 offset-sm-4">
-                <div className="item-titles whitecolor text-right">
-                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a data-fancybox="group-nine"
-                       href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Small <span>Businesses</span></a>
-                  </h2>
-                  <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">The integration of web fonts has
-                    always been one of the largest contributing factors to diversity in the overall look and feel of
-                    websites today vs, yesterday. Fonts, just like images. </p>
-                  <p className=" wow fadeInUp" data-wow-delay="400ms">fruits,vegetables</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/*<section className="single-items center-block item-eight parallaxie full-screen">*/}
+        {/*  <div className="container">*/}
+        {/*    <div className="row">*/}
+        {/*      <div className="col-md-5 col-sm-8">*/}
+        {/*        <div className="item-titles darkcolor">*/}
+        {/*          <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">*/}
+        {/*            <a data-fancybox="group-eight"*/}
+        {/*               href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Best <span>Solutions</span></a>*/}
+        {/*          </h2>*/}
+        {/*          <p className="top25 bottom25"></p>*/}
+        {/*          <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="350ms"*/}
+        {/*             data-fancybox="group-eight"*/}
+        {/*             href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">View More</a>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</section>*/}
+        {/*<section className="single-items center-block item-nine parallaxie full-screen">*/}
+        {/*  <div className="container">*/}
+        {/*    <div className="row">*/}
+        {/*      <div className="col-md-5 offset-md-7 col-sm-8 offset-sm-4">*/}
+        {/*        <div className="item-titles whitecolor text-right">*/}
+        {/*          <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">*/}
+        {/*            <a data-fancybox="group-nine"*/}
+        {/*               href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Small <span>Businesses</span></a>*/}
+        {/*          </h2>*/}
+        {/*          <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">The integration of web fonts has*/}
+        {/*            always been one of the largest contributing factors to diversity in the overall look and feel of*/}
+        {/*            websites today vs, yesterday. Fonts, just like images. </p>*/}
+        {/*          <p className=" wow fadeInUp" data-wow-delay="400ms">fruits,vegetables</p>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</section>*/}
 
         <a href="#" className="back-top">
           <img className="tothetop" src={coin} />
