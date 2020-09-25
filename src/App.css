@@ -3792,9 +3792,9 @@ textarea:-ms-input-placeholder {
 /*-------------------------------*/
 /* Footer*/
 /*-------------------------------*/
-footer .copyrights{
+footer .copyrights {
   font-size: 16px;
-  margin-top: 40px;
+  margin-top: 1rem;
 }
 .footer-logo {
   display: inline-block;
@@ -4219,4 +4219,19 @@ footer .copyrights > a:focus {
 .company-txt-section {
   line-height: 30px;
   font-size: 16px;
+}
+@media screen and (max-width: 768px){
+  .intro-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .single-items {
+    background-attachment: fixed;
+    background-position: inherit;
+    background-size: cover;
+    position: relative;
+  }
+  .colorShift {
+    color: black !important;
+  }
 }

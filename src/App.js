@@ -80,7 +80,7 @@ function App() {
               </nav>
 
               <div className="side-footer w-100">
-                <img className="lotusFooter" src={lotus} alt="Lotus Futuretech" />
+                {/*<img className="lotusFooter" src={lotus} alt="Lotus Futuretech" />*/}
                 {/*<ul className="social-icons-simple white top40">*/}
                 {/*  <li><a ><i className="fa fa-facebook"></i> </a></li>*/}
                 {/*  <li><a ><i className="fa fa-instagram"></i> </a></li>*/}
@@ -99,7 +99,7 @@ function App() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 col-sm-12">
-                <div className="item-titles whitecolor text-center">
+                <div className="item-titles whitecolor text-center colorShift">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a className="company-name">Lotus <span>Futuretech</span>
                     </a>
@@ -270,15 +270,15 @@ function App() {
         {/*  </div>*/}
         {/*</section>*/}
 
-        <a href="#" className="back-top">
-          <img className="tothetop" src={coin} />
-        </a>
+        {/*<a href="#" className="back-top">*/}
+        {/*  <img className="tothetop" src={coin} />*/}
+        {/*</a>*/}
 
-        <footer id="site-footer" className="padding_half">
+        <footer id="site-footer">
           <div className="container">
             <div className="row">
               <div className="col-md-12 col-sm-12 text-center">
-                <img className="lotusFooter" src={lotus} alt="Lotus Futuretech" />
+                {/*<img className="lotusFooter" src={lotus} alt="Lotus Futuretech" />*/}
                 <p className="copyrights wow fadeInUp" data-wow-delay="350ms"> &copy; 2020 Lotus Futuretech
                 </p>
               </div>
