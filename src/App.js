@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from '../src/images/logo-single-black.png';
+import logo from '../src/images/logo-lotus.png';
+import service_1 from '../src/images/connect-idea.jpg';
+import service_2 from '../src/images/connect-world.jpg';
 import coin from '../src/images/cloud-computing.png';
 import lotus from '../src/images/lotus-flower.png';
 import './App.css';
@@ -219,7 +221,7 @@ function App() {
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a
                        >About the
-                      <span> graph</span></a>
+                      <span> group</span></a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
