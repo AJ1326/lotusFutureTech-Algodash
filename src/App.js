@@ -55,7 +55,7 @@ function App() {
                     <a className="nav-link pagescroll" href="#section1">Lotus Futuretech</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#section2">Cloud as service</a>
+                    <a className="nav-link pagescroll" href="#section2">FreeFlow</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link pagescroll" href="#section3">Banking as a service</a>
@@ -106,12 +106,12 @@ function App() {
                     <a className="company-name">Lotus <span>Futuretech</span>
                     </a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp intro-text company-txt-section" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <a className="button btnwhite btn-gradient-hvr"
-                     href="http://www.themesindustry.com/html/xeone/gallery-detail.html wow fadeInUp"
-                     data-wow-delay="400ms">View More</a>
+                  {/*<p className="top25 bottom25 wow fadeInUp intro-text company-txt-section" data-wow-delay="350ms">*/}
+                    {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/}
+                  {/*</p>*/}
+                  {/*<a className="button btnwhite btn-gradient-hvr"*/}
+                     {/*href="http://www.themesindustry.com/html/xeone/gallery-detail.html wow fadeInUp"*/}
+                     {/*data-wow-delay="400ms">View More</a>*/}
                 </div>
               </div>
             </div>
@@ -123,10 +123,10 @@ function App() {
               <div className="col-md-6 col-sm-8 background-dark-text-section company-container-section">
                 <div className="item-titles whitecolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a>Cloud<span> as a service</span></a>
+                    <a>FreeFlow</a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      Decentralised edge Kubernetes compute and S3 storage for faster, more secure, more sustainable applications.
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      href="">View
@@ -145,7 +145,10 @@ function App() {
                     <a>Banking<span> as a service</span></a>
                   </h2>
                   <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.”
+                  </p>
+                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
+                    The BitCheck™️ feature lets you write a ‘digital check’ that other users can ‘deposit’, instantly transferring the stipulated currency and amount into their account.
                   </p>
                   <button className="button btnprimary btn-gradient-hvr" data-wow-delay="400ms"
                   >View More</button>
@@ -164,7 +167,10 @@ function App() {
                        href="">Energy<span> as a service</span></a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      Our mission is to establish the most comprehensive community-owned clean energy generator, energy transfer and energy storage network in the world.
+                  </p>
+                  <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
+                      We aim to supply consistent, affordable, clean, renewable energy directly to the world community and to enable third party energy generators worldwide, to supply power to our network. Ultimately, we want to create a community in control of their future with real profits from tangible assets generating clean, renewable energy and share those benefits with communities.
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      href="">View More</a>
@@ -180,10 +186,10 @@ function App() {
                 <div className="item-titles darkcolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a
-                       href="">Consulting and <span>Development</span></a>
+                       href="">IT Consulting and Development</a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      After truly understanding the needs of each client, our team of consultants apply their extensive experience with existing and new technologies to recommend the best solution for each specific situation.
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      href="">View More</a>
@@ -198,12 +204,10 @@ function App() {
               <div className="col-md-6 col-sm-8 background-dark-text-section company-container-section">
                 <div className="item-titles whitecolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a
-                      >Design and <span>PR</span>
-                    </a>
+                    <a>Blockchain For All</a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      We delivers enterprise-grade blockchain solutions, consultancy, proofs-of-concept and custom blockchain development services to help businesses in blockchain adoption. Our team of experts provide secure decentralized solutions for various domains, and integration of blockchain-based modules into existing software to ensure data integrity and compliance, and reduce fraud.
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      href="">View
