@@ -58,7 +58,7 @@ function App() {
                     <a className="nav-link pagescroll" href="#section2">FreeFlow</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#section3">Banking as a service</a>
+                    <a className="nav-link pagescroll" href="#section3">Bitcheck.network</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link pagescroll" href="#section4">Energy as a service</a>
