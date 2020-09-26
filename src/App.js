@@ -36,7 +36,7 @@ function App() {
         <header className="site-header transparent-sidemenu">
           <nav className="navbar navbar-expand-lg transparent-bg static-nav">
             <div className="container">
-              <a className="navbar-brand" href="http://www.themesindustry.com/html/xeone/index.html">
+              <a className="navbar-brand" href="https://www.themesindustry.com/html/xeone/index.html">
                 <img src={logo} alt="logo" />
               </a>
             </div>
@@ -110,7 +110,7 @@ function App() {
                     {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/}
                   {/*</p>*/}
                   {/*<a className="button btnwhite btn-gradient-hvr"*/}
-                     {/*href="http://www.themesindustry.com/html/xeone/gallery-detail.html wow fadeInUp"*/}
+                     {/*href="https://www.themesindustry.com/html/xeone/gallery-detail.html wow fadeInUp"*/}
                      {/*data-wow-delay="400ms">View More</a>*/}
                 </div>
               </div>
@@ -246,12 +246,12 @@ function App() {
         {/*        <div className="item-titles darkcolor">*/}
         {/*          <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">*/}
         {/*            <a data-fancybox="group-eight"*/}
-        {/*               href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Best <span>Solutions</span></a>*/}
+        {/*               href="https://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Best <span>Solutions</span></a>*/}
         {/*          </h2>*/}
         {/*          <p className="top25 bottom25"></p>*/}
         {/*          <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="350ms"*/}
         {/*             data-fancybox="group-eight"*/}
-        {/*             href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">View More</a>*/}
+        {/*             href="https://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">View More</a>*/}
         {/*        </div>*/}
         {/*      </div>*/}
         {/*    </div>*/}
@@ -264,7 +264,7 @@ function App() {
         {/*        <div className="item-titles whitecolor text-right">*/}
         {/*          <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">*/}
         {/*            <a data-fancybox="group-nine"*/}
-        {/*               href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Small <span>Businesses</span></a>*/}
+        {/*               href="https://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Small <span>Businesses</span></a>*/}
         {/*          </h2>*/}
         {/*          <p className="top25 bottom25 wow fadeInUp" data-wow-delay="350ms">The integration of web fonts has*/}
         {/*            always been one of the largest contributing factors to diversity in the overall look and feel of*/}
