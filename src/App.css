@@ -759,7 +759,7 @@ i::before,i::after{
 }
 
 .navbar-brand  {
-  margin: 16px 0;
+  margin: 5px 0;
   padding: 0;
   width: 140px;
   position: relative;
@@ -2342,7 +2342,7 @@ i::before,i::after{
   background: url('./images/block_chain_for_all.jpg') no-repeat;
 }
 .item-seven {
-  background: url('./images/pexels-henry-&-co-1939485.jpg') no-repeat;
+  /*background: url('./images/pexels-henry-&-co-1939485.jpg') no-repeat;*/
 }
 .item-eight {
   background: url('./images/connect-nature2.jpg') no-repeat;
@@ -4234,4 +4234,12 @@ footer .copyrights > a:focus {
   .colorShift {
     color: black !important;
   }
+}
+
+.logo-container {
+  margin-left: 40px;
+}
+
+.text-center {
+  text-align: center;
 }
