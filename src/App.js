@@ -142,7 +142,7 @@ function App() {
               <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-dark-text-section company-container-section">
                 <div className="item-titles whitecolor text-right">
                   <h2 className="font-xlight" data-wow-delay="300ms">
-                    <a>Banking<span> as a service</span></a>
+                    <a>Bitcheck.network</a>
                   </h2>
                   <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
                       According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.”
