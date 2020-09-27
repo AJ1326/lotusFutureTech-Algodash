@@ -2330,7 +2330,7 @@ i::before,i::after{
   background: url('./images/taylor-vick-M5tzZtFCOfs-unsplash.jpg') no-repeat;
 }
 .item-three {
-  background: url('./images/Untitled design.png') no-repeat;
+  background: url('images/bitcheck.png') no-repeat;
 }
 .item-four {
   background: url('./images/energy.jpeg') no-repeat;
@@ -4242,4 +4242,8 @@ footer .copyrights > a:focus {
 
 .text-center {
   text-align: center;
+}
+
+.abt-goup {
+  margin-top: 20px;
 }
