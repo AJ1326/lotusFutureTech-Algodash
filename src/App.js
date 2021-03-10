@@ -199,9 +199,9 @@ function App() {
         <section className="single-items center-block item-six parallaxie full-screen" id="section6">
           <div className="section-container">
             <div className="row">
-              <div className="col-md-6 col-sm-8 background-dark-text-section company-container-section">
-                <div className="item-titles whitecolor">
-                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
+              <div className="col-md-6 offset-md-6 col-sm-8 background-dark-text-section company-container-section">
+                <div className="item-titles whitecolor text-right">
+                  <h2 className="font-xlight" data-wow-delay="300ms">
                     <a>Blockchain For All</a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
@@ -521,10 +521,12 @@ function App() {
           </div>
           <div className="section-container">
             <div className="row">
-              <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 company-container-section">
+              <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-light-text-section company-container-section">
                 <div className="item-titles darkcolor text-right">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a>About the group</a>
+                    <a
+                       >About the
+                      <span> group</span></a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
                     A forward-thinking company with a stronghold in technology. Founded in 2000, we started with IT products and services portfolio and after pioneering it in all these years we are now venturing into our new passion of Distributed Ledger Technology (DLT).
