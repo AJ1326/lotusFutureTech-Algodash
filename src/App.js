@@ -52,7 +52,7 @@ function App() {
               <nav className="side-nav">
                 <ul className="navbar-nav w-100">
                   <li className="nav-item active">
-                    <a className="nav-link pagescroll" href="#section1">Lotus Futuretech</a>
+                    <a className="nav-link pagescroll" href="#section1">MB Solution</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link pagescroll" href="#section2">FreeFlow</a>
@@ -63,14 +63,14 @@ function App() {
                   <li className="nav-item">
                     <a className="nav-link pagescroll" href="#section4">Energy as a service</a>
                   </li>
+                  {/*<li className="nav-item">*/}
+                  {/*  <a className="nav-link pagescroll" href="#section5">Consulting and developement</a>*/}
+                  {/*</li>*/}
+                  {/*<li className="nav-item">*/}
+                  {/*  <a className="nav-link pagescroll" href="#section6">Design and PR</a>*/}
+                  {/*</li>*/}
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#section5">Consulting and developement</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#section6">Design and PR</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#section7">About the graph</a>
+                    <a className="nav-link pagescroll" href="#section7">About the group</a>
                   </li>
                   {/*<li className="nav-item">*/}
                   {/*  <a className="nav-link pagescroll" href="#agency">agency</a>*/}
@@ -88,7 +88,7 @@ function App() {
                 {/*  <li><a ><i className="fa fa-instagram"></i> </a></li>*/}
                 {/*  <li><a ><i className="fa fa-twitter"></i> </a></li>*/}
                 {/*</ul>*/}
-                <p className="whitecolor mt20">&copy; 2020 Lotus Futuretech.</p>
+                <p className="whitecolor mt20">&copy; 2020 MB Solution.</p>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ function App() {
               <div className="col-md-12 col-sm-12">
                 <div className="item-titles whitecolor text-center colorShift">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a className="company-name">Lotus <span>Futuretech</span>
+                    <a className="company-name">MB <span>Solution</span>
                     </a>
                   </h2>
                   {/*<p className="top25 bottom25 wow fadeInUp intro-text company-txt-section" data-wow-delay="350ms">*/}
@@ -126,7 +126,7 @@ function App() {
                     <a>FreeFlow</a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
-                      Decentralised edge Kubernetes compute and S3 storage for faster, more secure, more sustainable applications.
+                      A game changing technology, which our peer-to-peer (P2P) internet delivers on privacy and security. Available everywhere in the world and uses much less energy than today’s solution.
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      href="">View
@@ -145,10 +145,7 @@ function App() {
                     <a>Bitcheck.network</a>
                   </h2>
                   <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
-                      According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.”
-                  </p>
-                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
-                    The BitCheck™️ feature lets you write a ‘digital check’ that other users can ‘deposit’, instantly transferring the stipulated currency and amount into their account.
+                      According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.” The BitCheck™️ is a blockchain based, decentralized, secure payment system that negates security problems within all transactions.
                   </p>
                   <button className="button btnprimary btn-gradient-hvr" data-wow-delay="400ms"
                   >View More</button>
@@ -179,25 +176,25 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="single-items center-block item-five parallaxie full-screen" id="section5">
-          <div className="section-container">
-            <div className="row">
-              <div className="col-md-6 offset-md-6 col-sm-8 background-light-text-section company-container-section">
-                <div className="item-titles darkcolor">
-                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a
-                       href="">IT Consulting and Development</a>
-                  </h2>
-                  <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
-                      After truly understanding the needs of each client, our team of consultants apply their extensive experience with existing and new technologies to recommend the best solution for each specific situation.
-                  </p>
-                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
-                     href="">View More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/*<section className="single-items center-block item-five parallaxie full-screen" id="section5">*/}
+        {/*  <div className="section-container">*/}
+        {/*    <div className="row">*/}
+        {/*      <div className="col-md-6 offset-md-6 col-sm-8 background-light-text-section company-container-section">*/}
+        {/*        <div className="item-titles darkcolor">*/}
+        {/*          <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">*/}
+        {/*            <a*/}
+        {/*               href="">IT Consulting and Development</a>*/}
+        {/*          </h2>*/}
+        {/*          <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">*/}
+        {/*              After truly understanding the needs of each client, our team of consultants apply their extensive experience with existing and new technologies to recommend the best solution for each specific situation.*/}
+        {/*          </p>*/}
+        {/*          <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"*/}
+        {/*             href="">View More</a>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</section>*/}
         <section className="single-items center-block item-six parallaxie full-screen" id="section6">
           <div className="section-container">
             <div className="row">
@@ -207,7 +204,7 @@ function App() {
                     <a>Blockchain For All</a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
-                      We delivers enterprise-grade blockchain solutions, consultancy, proofs-of-concept and custom blockchain development services to help businesses in blockchain adoption. Our team of experts provide secure decentralized solutions for various domains, and integration of blockchain-based modules into existing software to ensure data integrity and compliance, and reduce fraud.
+                      We deliver enterprise-grade blockchain solutions, consultancy, proof-of-concept and custom blockchain development services to help businesses in blockchain adoption. Our team of experts provide secure decentralized solutions for various domains and integration of blockchain-based modules into existing software to ensure data integrity, compliance and reduce fraud.
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      href="">View
@@ -223,16 +220,14 @@ function App() {
               <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-light-text-section company-container-section">
                 <div className="item-titles darkcolor text-right">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
-                    <a
-                       >About the
-                      <span> group</span></a>
+                    <a>About the group</a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    A forward-thinking company with a stronghold in technology. Founded in 2000, we started with IT products and services portfolio and after pioneering it in all these years we are now venturing into our new passion of Distributed Ledger Technology (DLT).
                   </p>
-                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
-                     href="">View
-                    More</a>
+                  {/*<a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"*/}
+                  {/*   href="">View*/}
+                  {/*  More</a>*/}
                 </div>
               </div>
             </div>
@@ -285,7 +280,7 @@ function App() {
             <div className="row">
               <div className="col-md-12 col-sm-12 text-center">
                 {/*<img className="lotusFooter" src={lotus} alt="Lotus Futuretech" />*/}
-                <p className="copyrights wow fadeInUp" data-wow-delay="350ms"> &copy; 2020 Lotus Futuretech
+                <p className="copyrights wow fadeInUp" data-wow-delay="350ms"> &copy; 2020 MB Solution
                 </p>
               </div>
             </div>
