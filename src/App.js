@@ -62,7 +62,7 @@ function App() {
                     <a className="nav-link pagescroll" href="#section3">Bitcheck.network</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#section4">Energy as a service</a>
+                    <a className="nav-link pagescroll" href="#section4">Energy as a Service</a>
                   </li>
                   {/*<li className="nav-item">*/}
                   {/*  <a className="nav-link pagescroll" href="#section5">Consulting and developement</a>*/}
@@ -146,7 +146,10 @@ function App() {
                     <a>Bitcheck.network</a>
                   </h2>
                   <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
-                      According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.” The BitCheck™️ is a blockchain based, decentralized, secure payment system that negates security problems within all transactions.
+                      According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.”
+                  </p>
+                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
+                       The BitCheck™️ is a blockchain based, decentralized, secure payment system that negates security problems within all transactions.
                   </p>
                   <button className="button btnprimary btn-gradient-hvr" data-wow-delay="400ms"
                   >View More</button>
@@ -202,7 +205,7 @@ function App() {
               <div className="col-md-6 offset-md-6 col-sm-8 background-dark-text-section company-container-section">
                 <div className="item-titles whitecolor text-right">
                   <h2 className="font-xlight" data-wow-delay="300ms">
-                    <a>Blockchain For All</a>
+                    <a>Blockchain for all</a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
                       We deliver enterprise-grade blockchain solutions, consultancy, proof-of-concept and custom blockchain development services to help businesses in blockchain adoption. Our team of experts provide secure decentralized solutions for various domains and integration of blockchain-based modules into existing software to ensure data integrity, compliance and reduce fraud.
