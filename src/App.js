@@ -53,32 +53,26 @@ function App() {
               <nav className="side-nav">
                 <ul className="navbar-nav w-100">
                   <li className="nav-item active">
-                    <a className="nav-link pagescroll" href="#section1">MB Solution</a>
+                    <a className="nav-link pagescroll" href="#mbsolutions">MB Solution</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#section2">FreeFlow</a>
+                    <a className="nav-link pagescroll" href="#bitcheck">Bitcheck.network</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#section3">Bitcheck.network</a>
+                    <a className="nav-link pagescroll" href="#freeflow">FreeFlow</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#section4">Energy as a Service</a>
+                    <a className="nav-link pagescroll" href="#energy">Energy as a Service</a>
                   </li>
-                  {/*<li className="nav-item">*/}
-                  {/*  <a className="nav-link pagescroll" href="#section5">Consulting and developement</a>*/}
-                  {/*</li>*/}
-                  {/*<li className="nav-item">*/}
-                  {/*  <a className="nav-link pagescroll" href="#section6">Design and PR</a>*/}
-                  {/*</li>*/}
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#section7">About the group</a>
+                    <a className="nav-link pagescroll" href="#blockchain">Blockchain for all</a>
                   </li>
-                  {/*<li className="nav-item">*/}
-                  {/*  <a className="nav-link pagescroll" href="#agency">agency</a>*/}
-                  {/*</li>*/}
-                  {/*<li className="nav-item">*/}
-                  {/*  <a className="nav-link pagescroll" href="#site-footer">Contact</a>*/}
-                  {/*</li>*/}
+                  <li className="nav-item">
+                    <a className="nav-link pagescroll" href="#team">Team</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link pagescroll" href="#aboutgroup">About the group</a>
+                  </li>
                 </ul>
               </nav>
 
@@ -98,7 +92,7 @@ function App() {
 
         <canvas className='connecting-dots canvas'></canvas>
 
-        <section className="single-items center-block center-block item-one parallaxie full-screen" id="section1">
+        <section className="single-items center-block center-block item-one parallaxie full-screen" id="mbsolutions">
           <div className="container">
             <div className="row">
               <div className="col-md-12 col-sm-12">
@@ -111,14 +105,14 @@ function App() {
                     {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/}
                   {/*</p>*/}
                   <a className="button btnwhite btn-gradient-hvr pagescroll abt-goup"
-                     href="#section7"
+                     href="#aboutgroup"
                      data-wow-delay="400ms">About the group</a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="single-items center-block item-two parallaxie full-screen" id="section2">
+        <section className="single-items center-block item-two parallaxie full-screen" id="freeflow">
           <div className="section-container">
             <div className="row">
               <div className="col-md-6 col-sm-8 background-dark-text-section company-container-section">
@@ -137,28 +131,8 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="single-items center-block item-three parallaxie full-screen" id="section3">
-          <div className="section-container">
-            <div className="row">
-              <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-dark-text-section company-container-section">
-                <div className="item-titles whitecolor text-right">
-                  <h2 className="font-xlight" data-wow-delay="300ms">
-                    <a>Bitcheck.network</a>
-                  </h2>
-                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
-                      According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.”
-                  </p>
-                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
-                       The BitCheck™️ is a blockchain based, decentralized, secure payment system that negates security problems within all transactions.
-                  </p>
-                  <button className="button btnprimary btn-gradient-hvr" data-wow-delay="400ms"
-                  >View More</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="single-items center-block item-four parallaxie full-screen" id="section4">
+
+        <section className="single-items center-block item-four parallaxie full-screen" id="energy">
           <div className="section-container">
             <div className="row">
               <div className="col-md-6 col-sm-8 background-dark-text-section company-container-section">
@@ -175,6 +149,28 @@ function App() {
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      href="">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="single-items center-block item-three parallaxie full-screen" id="bitcheck">
+          <div className="section-container">
+            <div className="row">
+              <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-dark-text-section company-container-section">
+                <div className="item-titles whitecolor text-right">
+                  <h2 className="font-xlight" data-wow-delay="300ms">
+                    <a>Bitcheck.network</a>
+                  </h2>
+                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
+                      According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.”
+                  </p>
+                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
+                       The BitCheck™️ is a blockchain based, decentralized, secure payment system that negates security problems within all transactions.
+                  </p>
+                  <button className="button btnprimary btn-gradient-hvr" data-wow-delay="400ms"
+                  >View More</button>
                 </div>
               </div>
             </div>
@@ -199,7 +195,7 @@ function App() {
         {/*    </div>*/}
         {/*  </div>*/}
         {/*</section>*/}
-        <section className="single-items center-block item-six parallaxie full-screen" id="section6">
+        <section className="single-items center-block item-six parallaxie full-screen" id="blockchain">
           <div className="section-container">
             <div className="row">
               <div className="col-md-6 offset-md-6 col-sm-8 background-dark-text-section company-container-section">
@@ -218,8 +214,86 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* Team section */}
+        <section id="team" className="team content-section">
+          <div className="container">
+            <div className="row text-center item-titles darkcolor">
+              <div className="col-md-12 pd-2">
+                  <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
+                    <a
+                       >About the
+                      <span> Team</span></a>
+                  </h2>
+                  <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
+                    Meet the people who make awesome stuffs
+                  </p>
+              </div>
+
+              <div className="container">
+                <div className="row">
+
+                  <div className="col-md-4">
+                    <div className="team-member">
+                      <figure>
+                        <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/lauren-cox.jpg" alt="" class="img-responsive" />
+                        <figcaption>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.</p>
+                          <ul>
+                            <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                          </ul>
+                        </figcaption>
+                      </figure>
+                      <h4>Lauren Cox</h4>
+                      <p>Creative Director</p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4">
+                    <div className="team-member">
+                      <figure>
+                        <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/jessie-barnett.jpg" alt="" class="img-responsive" />
+                        <figcaption>
+                          <p>Neque minima ea, a praesentium saepe nihil maxime quod esse numquam explicabo eligendi.</p>
+                          <ul>
+                            <li><a href=""><i className="fa fa-facebook fa-2x"></i></a></li>
+                            <li><a href=""><i className="fa fa-twitter fa-2x"></i></a></li>
+                            <li><a href=""><i className="fa fa-linkedin fa-2x"></i></a></li>
+                          </ul>
+                        </figcaption>
+                      </figure>
+                      <h4>Jessie Barnett</h4>
+                      <p>UI/UX Designer</p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4">
+                    <div className="team-member">
+                      <figure>
+                        <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg" alt="" class="img-responsive" />
+                        <figcaption>
+                          <p>Temporibus dolor, quisquam consectetur molestias, veniam voluptatum. Beatae alias omnis totam.</p>
+                          <ul>
+                            <li><a href=""><i className="fa fa-facebook fa-2x"></i></a></li>
+                            <li><a href=""><i className="fa fa-twitter fa-2x"></i></a></li>
+                            <li><a href=""><i className="fa fa-linkedin fa-2x"></i></a></li>
+                          </ul>
+                        </figcaption>
+                      </figure>
+                      <h4>Terry Fletcher</h4>
+                      <p>Web Developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <canvas className='connecting-dots canvas-btm'></canvas>
-        <section className="single-items center-block item-seven parallaxie full-screen" id="section7">
+        <section className="single-items center-block item-seven parallaxie full-screen" id="aboutgroup">
           <div className='wrap'>
             <div className='c'></div>
             <div className='c'></div>
@@ -524,8 +598,8 @@ function App() {
           </div>
           <div className="section-container">
             <div className="row">
-              <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-light-text-section company-container-section">
-                <div className="item-titles darkcolor text-right">
+              <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-dark-text-section company-container-section">
+                <div className="item-titles whitecolor text-right">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a
                        >About the
@@ -580,14 +654,14 @@ function App() {
         {/*  </div>*/}
         {/*</section>*/}
 
-        {/*<a href="#" className="back-top">*/}
-        {/*  <img className="tothetop" src={coin} />*/}
-        {/*</a>*/}
+        {/* <a href="#" className="back-top">
+         <img className="tothetop" src={coin} />
+        </a> */}
 
         <footer id="site-footer">
           <div className="container">
             <div className="row">
-              <div className="col-md-12 col-sm-12 text-center">
+              <div className="col-md-12 col-sm-12 text-center pd-2">
                 {/*<img className="lotusFooter" src={lotus} alt="Lotus Futuretech" />*/}
                 <p className="copyrights wow fadeInUp" data-wow-delay="350ms"> &copy; 2020 MB Solution
                 </p>
