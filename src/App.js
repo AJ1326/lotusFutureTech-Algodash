@@ -56,10 +56,10 @@ function App() {
                     <a className="nav-link pagescroll" href="#mbsolutions">MB Solution</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#bitcheck">Bitcheck.network</a>
+                    <a className="nav-link pagescroll" href="#freeflow">FreeFlow</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#freeflow">FreeFlow</a>
+                    <a className="nav-link pagescroll" href="#bitcheck">Bitcheck.network</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link pagescroll" href="#energy">Energy as a Service</a>
@@ -68,7 +68,7 @@ function App() {
                     <a className="nav-link pagescroll" href="#blockchain">Blockchain for all</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#team">Team</a>
+                    <a className="nav-link pagescroll" href="#team">The Team</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link pagescroll" href="#aboutgroup">About the group</a>
@@ -542,14 +542,14 @@ function App() {
           </div>
         </section>
 
-                {/* Team section */}
-                <section id="team" className="team content-section">
+        {/* Team section */}
+        <section id="team" className="team content-section">
           <div className="section-container">
             <div className="row text-center item-titles darkcolor">
               <div className="col-md-12 pd-2">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a
-                       >About the
+                       >The
                       <span> Team</span></a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
