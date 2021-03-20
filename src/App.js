@@ -553,7 +553,7 @@ function App() {
         {/* Team section */}
         <section id="team" className="team content-section">
           <div className="section-container">
-            <div className="row text-center item-titles darkcolor">
+            <div className="row text-center item-titles darkcolor pd-2">
               <div className="col-md-12 pd-2">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a
