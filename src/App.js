@@ -4,6 +4,12 @@ import service_1 from '../src/images/connect-idea.jpg';
 import service_2 from '../src/images/connect-world.jpg';
 import coin from '../src/images/cloud-computing.png';
 import lotus from '../src/images/lotus-flower.png';
+// Team Images
+import RC from '../src/images/Rachna.jpg';
+import GG from '../src/images/GG.jpg';
+import GT from '../src/images/Geetanjali.jpg';
+import RB from '../src/images/RB.jpg';
+// End
 import './App.css';
 import './particles/particle.css';
 import './particles/particle-btm.css';
@@ -38,7 +44,8 @@ function App() {
           <nav className="navbar navbar-expand-lg transparent-bg static-nav">
             <div className="logo-container">
               <a className="navbar-brand">
-                <img src={logo} alt="logo" />
+                <span>MBSPL</span>
+                {/* <img src={logo} alt="logo" /> */}
               </a>
             </div>
 
@@ -68,10 +75,10 @@ function App() {
                     <a className="nav-link pagescroll" href="#blockchain">Blockchain for all</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#team">The Team</a>
+                    <a className="nav-link pagescroll" href="#aboutgroup">About the group</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#aboutgroup">About the group</a>
+                    <a className="nav-link pagescroll" href="#team">The Core Team</a>
                   </li>
                 </ul>
               </nav>
@@ -124,8 +131,9 @@ function App() {
                       A game changing technology, which our peer-to-peer (P2P) internet delivers on privacy and security. Available everywhere in the world and uses much less energy than today’s solution.
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
-                     href="">View
-                    More</a>
+                     href="https://alamshahsid11.wixsite.com/my-site-3" target="_blank">Network</a>
+                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp ml-10" data-wow-delay="400ms"
+                    href="https://alamshahsid11.wixsite.com/my-site-2"  target="_blank">Cloud</a>
                 </div>
               </div>
             </div>
@@ -146,8 +154,8 @@ function App() {
                   <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
                        The BitCheck™️ is a blockchain based, decentralized, secure payment system that negates security problems within all transactions.
                   </p>
-                  <button className="button btnprimary btn-gradient-hvr" data-wow-delay="400ms"
-                  >View More</button>
+                  {/* <button className="button btnprimary btn-gradient-hvr" data-wow-delay="400ms"
+                  >View More</button> */}
                 </div>
               </div>
             </div>
@@ -169,8 +177,8 @@ function App() {
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
                       We aim to supply consistent, affordable, clean, renewable energy directly to the world community and to enable third party energy generators worldwide, to supply power to our network. Ultimately, we want to create a community in control of their future with real profits from tangible assets generating clean, renewable energy and share those benefits with communities.
                   </p>
-                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
-                     href="">View More</a>
+                  {/* <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
+                     href="">View More</a> */}
                 </div>
               </div>
             </div>
@@ -208,9 +216,9 @@ function App() {
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
                       We deliver enterprise-grade blockchain solutions, consultancy, proof-of-concept and custom blockchain development services to help businesses in blockchain adoption. Our team of experts provide secure decentralized solutions for various domains and integration of blockchain-based modules into existing software to ensure data integrity, compliance and reduce fraud.
                   </p>
-                  <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
+                  {/* <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      href="">View
-                    More</a>
+                    More</a> */}
                 </div>
               </div>
             </div>
@@ -549,75 +557,75 @@ function App() {
               <div className="col-md-12 pd-2">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a
-                       >The
+                       >The Core
                       <span> Team</span></a>
                   </h2>
-                  <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
+                  {/* <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
                     Meet the people who make awesome stuffs
-                  </p>
+                  </p> */}
               </div>
 
               <div className="section-container pd-20">
                 <div className="row">
 
-                  <div className="col-md-3">
+                  <div className="col-md-4">
                     <div className="team-member">
                       <figure>
-                        <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/lauren-cox.jpg" alt="" class="img-responsive" />
+                        <img src={GG} alt="" class="img-responsive" />
                         <figcaption>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.</p>
+                          <p>Blockchain Advisor | Consultant Strategist | Investor | Information Technology | FinTech | Renewable Energy</p>
                           <ul>
-                            <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
-                            <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                            {/* <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li> */}
+                            {/* <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li> */}
+                            <li><a href="https://linkedin.com/in/gaurav-k-gupta-05b12b31" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
                           </ul>
                         </figcaption>
                       </figure>
-                      <h4>Lauren Cox</h4>
-                      <p>Creative Director</p>
+                      <h4>Gaurav Gupta (GG)</h4>
+                      <p>Head of Strategy</p>
                     </div>
                   </div>
 
-                  <div className="col-md-3">
+                  <div className="col-md-4">
                     <div className="team-member">
                       <figure>
-                        <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/lauren-cox.jpg" alt="" class="img-responsive" />
+                        <img src={GT} alt="" class="img-responsive" />
                         <figcaption>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.</p>
+                          <p>HBS (OPM) Alumni | Networker | Health Enthusiast </p>
                           <ul>
-                            <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
-                            <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                            {/* <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li> */}
+                            {/* <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li> */}
+                            <li><a href="https://linkedin.com/in/geetanjali-alamshah" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
                           </ul>
                         </figcaption>
                       </figure>
-                      <h4>Lauren Cox</h4>
-                      <p>Creative Director</p>
+                      <h4>Geetanjali Alamshah (Gee)</h4>
+                      <p>Network Director</p>
                     </div>
                   </div>
 
-                  <div className="col-md-3">
+                  <div className="col-md-4">
                     <div className="team-member">
                       <figure>
-                        <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/jessie-barnett.jpg" alt="" class="img-responsive" />
+                        <img src={RC} alt="" class="img-responsive" />
                         <figcaption>
-                          <p>Neque minima ea, a praesentium saepe nihil maxime quod esse numquam explicabo eligendi.</p>
+                          <p>Business and Brand Strategist | Digital and Growth Innovator | Information Technology </p>
                           <ul>
-                            <li><a href=""><i className="fa fa-facebook fa-2x"></i></a></li>
-                            <li><a href=""><i className="fa fa-twitter fa-2x"></i></a></li>
-                            <li><a href=""><i className="fa fa-linkedin fa-2x"></i></a></li>
+                            {/* <li><a href=""><i className="fa fa-facebook fa-2x"></i></a></li> */}
+                            {/* <li><a href=""><i className="fa fa-twitter fa-2x"></i></a></li> */}
+                            <li><a href="https://www.linkedin.com/in/rachna-singh-bb08943/" target="_blank"><i className="fa fa-linkedin fa-2x"></i></a></li>
                           </ul>
                         </figcaption>
                       </figure>
-                      <h4>Jessie Barnett</h4>
-                      <p>UI/UX Designer</p>
+                      <h4>Rachna Singh (RS)</h4>
+                      <p>Business & Brand Strategist</p>
                     </div>
                   </div>
 
-                  <div className="col-md-3">
+                  {/* <div className="col-md-3">
                     <div className="team-member">
                       <figure>
-                        <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg" alt="" class="img-responsive" />
+                        <img src={RB} alt="" class="img-responsive" />
                         <figcaption>
                           <p>Temporibus dolor, quisquam consectetur molestias, veniam voluptatum. Beatae alias omnis totam.</p>
                           <ul>
@@ -630,7 +638,7 @@ function App() {
                       <h4>Terry Fletcher</h4>
                       <p>Web Developer</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
