@@ -675,11 +675,14 @@ i::before,i::after{
 
   -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
-  background: -webkit-linear-gradient(90deg, #46a8efd6 31%, #7de885 69%);
+  background: linear-gradient(
+    90deg
+    , #01080cd6 31%, #3b403b 69%);
+  /* background: -webkit-linear-gradient(90deg, #46a8efd6 31%, #7de885 69%);
   background: -webkit-gradient(linear, left top, right top, color-stop(31%, #46a8efd6), color-stop(69%, #7de885));
   background: -webkit-linear-gradient(left, #46a8efd6 31%, #7de885 69%);
   background: -o-linear-gradient(left, #46a8efd6 31%, #7de885 69%);
-  background: linear-gradient(90deg, #46a8efd6 31%, #7de885 69%);
+  background: linear-gradient(90deg, #46a8efd6 31%, #7de885 69%); */
 }
 .center-brand.fixedmenu,
 .bg-white.fixedmenu,
@@ -4347,7 +4350,8 @@ footer .copyrights > a:focus {
 .team-member figure:hover figcaption {
   visibility: visible;
   color: #fff;
-  background: rgba(230, 78, 62, 0.9);
+  background: rgb(33 150 243 / 54%);
+  /* background: rgba(230, 78, 62, 0.9); */
   /* Primary color, can be changed via colors.css */
   
   height: 100%;
