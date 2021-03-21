@@ -768,6 +768,7 @@ i::before,i::after{
   padding: 0;
   width: 140px;
   position: relative;
+  color: black !important;
 }
 .center-brand .navbar-brand {
   position: absolute;

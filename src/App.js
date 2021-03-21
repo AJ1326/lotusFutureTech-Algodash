@@ -66,7 +66,7 @@ function App() {
                     <a className="nav-link pagescroll" href="#freeflow">FreeFlow</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#bitcheck">Bitcheck.network</a>
+                    <a className="nav-link pagescroll" href="#bitcheck">Finstr.network</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link pagescroll" href="#energy">Energy as a Service</a>
@@ -146,7 +146,7 @@ function App() {
               <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-dark-text-section company-container-section">
                 <div className="item-titles whitecolor text-right">
                   <h2 className="font-xlight" data-wow-delay="300ms">
-                    <a>Bitcheck.network</a>
+                    <a>Finstr.network</a>
                   </h2>
                   <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
                       According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.”
@@ -582,7 +582,7 @@ function App() {
                         </figcaption>
                       </figure>
                       <h4>Gaurav Gupta (GG)</h4>
-                      <p>Head of Strategy</p>
+                      {/*<p>Head of Strategy</p>*/}
                     </div>
                   </div>
 
@@ -600,7 +600,7 @@ function App() {
                         </figcaption>
                       </figure>
                       <h4>Geetanjali Alamshah (Gee)</h4>
-                      <p>Network Director</p>
+                      {/*<p>Network Director</p>*/}
                     </div>
                   </div>
 
@@ -617,8 +617,8 @@ function App() {
                           </ul>
                         </figcaption>
                       </figure>
-                      <h4>Rachna Singh (RS)</h4>
-                      <p>Business & Brand Strategist</p>
+                      <h4>Rachna Singh</h4>
+                      {/*<p>Business & Brand Strategist</p>*/}
                     </div>
                   </div>
 
