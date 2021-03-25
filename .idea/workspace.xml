@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4a47004-3695-4490-b687-8e6762cd2d9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49000c7ba5cad563776427d6e0591319aa5e9450" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49000c7ba5cad563776427d6e0591319aa5e9450" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88f6dc70167e1aac2346b9b5655c8aae5931f53f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88f6dc70167e1aac2346b9b5655c8aae5931f53f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c60a208daa8d2c9b5b6e12de04c44d9c77837660" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c60a208daa8d2c9b5b6e12de04c44d9c77837660" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bitcheck.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/bitcheck.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +143,8 @@
       <workItem from="1615349623420" duration="159000" />
       <workItem from="1616234219277" duration="258000" />
       <workItem from="1616295497305" duration="18000" />
-      <workItem from="1616309372315" duration="432000" />
+      <workItem from="1616309372315" duration="872000" />
+      <workItem from="1616662379404" duration="778000" />
     </task>
     <servers />
   </component>

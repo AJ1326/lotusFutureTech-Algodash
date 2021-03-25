@@ -128,7 +128,7 @@ function App() {
                     <a>FreeFlow</a>
                   </h2>
                   <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
-                      A game changing technology, which our peer-to-peer (P2P) internet delivers on privacy and security. Available everywhere in the world and uses much less energy than today’s solution.
+                      We are striving to make a better planet and offer a better Internet to all human race with our game changing technology. <br/> Our peer-to-peer (P2P) internet delivers on privacy and security. It’s available everywhere in the world and uses much less energy than today’s solution.
                   </p>
                   <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      href="https://alamshahsid11.wixsite.com/my-site-3" target="_blank">Network</a>
