@@ -8,6 +8,8 @@ import lotus from '../src/images/lotus-flower.png';
 import RC from '../src/images/Rachna.jpg';
 import GG from '../src/images/GG.jpg';
 import GT from '../src/images/Geetanjali.jpg';
+import SG from '../src/images/SG.png';
+import SA from '../src/images/SA.png';
 import RB from '../src/images/RB.jpg';
 // End
 import './App.css';
@@ -640,6 +642,47 @@ function App() {
                     </div>
                   </div> */}
                 </div>
+
+                <div className="row d-flex-centre-row">
+
+                  <div className="col-md-4">
+                    <div className="team-member">
+                      <figure>
+                        <img src={SG} alt="" class="img-responsive" />
+                        <figcaption>
+                          <p>Health Enthusiast | Stage Investor | Mentor | Business & brand stratergist</p>
+                          <ul>
+                            {/* <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li> */}
+                            {/* <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li> */}
+                            <li><a href="https://linkedin.com/in/gaurav-k-gupta-05b12b31" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                          </ul>
+                        </figcaption>
+                      </figure>
+                      <h4>Shreedarh Gupta (Shree)</h4>
+                      {/*<p>Head of Strategy</p>*/}
+                    </div>
+                  </div>
+
+                  <div className="col-md-4">
+                    <div className="team-member">
+                      <figure>
+                        <img src={SA} alt="" class="img-responsive" />
+                        <figcaption>
+                          <p>Trinity College School (TCS) Alumni | Squash Player | Health Enthusiast </p>
+                          <ul>
+                            {/* <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li> */}
+                            {/* <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li> */}
+                            <li><a href="https://linkedin.com/in/geetanjali-alamshah" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                          </ul>
+                        </figcaption>
+                      </figure>
+                      <h4>Sid Alamshah (SA)</h4>
+                      {/*<p>Network Director</p>*/}
+                    </div>
+                  </div>
+                
+                </div>
+
               </div>
             </div>
           </div>
