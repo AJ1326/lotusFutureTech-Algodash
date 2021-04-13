@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../src/images/logo-lotus.png';
+import logo from '../src/images/mb.png';
 import service_1 from '../src/images/connect-idea.jpg';
 import service_2 from '../src/images/connect-world.jpg';
 import coin from '../src/images/cloud-computing.png';
@@ -10,7 +10,9 @@ import GG from '../src/images/GG.jpg';
 import GT from '../src/images/Geetanjali.jpg';
 import SG from '../src/images/SG.png';
 import SA from '../src/images/SA.png';
-import RB from '../src/images/RB.jpg';
+import NJ from '../src/images/NJ.png';
+import Empty from '../src/images/empty.png';
+import RB from '../src/images/RB.png';
 // End
 import './App.css';
 import './particles/particle.css';
@@ -46,8 +48,7 @@ function App() {
           <nav className="navbar navbar-expand-lg transparent-bg static-nav">
             <div className="logo-container">
               <a className="navbar-brand">
-                <span>MBSPL</span>
-                {/* <img src={logo} alt="logo" /> */}
+                <img src={logo} alt="logo" />
               </a>
             </div>
 
@@ -80,7 +81,7 @@ function App() {
                     <a className="nav-link pagescroll" href="#aboutgroup">About the group</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#team">The Core Team</a>
+                    <a className="nav-link pagescroll" href="#team">The Team</a>
                   </li>
                 </ul>
               </nav>
@@ -559,7 +560,7 @@ function App() {
               <div className="col-md-12 pd-2">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a
-                       >The Core
+                       >The
                       <span> Team</span></a>
                   </h2>
                   {/* <p className="top25 bottom25 wow fadeInUp company-txt-section" data-wow-delay="350ms">
@@ -570,7 +571,7 @@ function App() {
               <div className="section-container pd-20">
                 <div className="row">
 
-                  <div className="col-md-4">
+                  <div className="col-md-3">
                     <div className="team-member">
                       <figure>
                         <img src={GG} alt="" class="img-responsive" />
@@ -588,25 +589,7 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="col-md-4">
-                    <div className="team-member">
-                      <figure>
-                        <img src={GT} alt="" class="img-responsive" />
-                        <figcaption>
-                          <p>HBS (OPM) Alumni | Networker | Health Enthusiast </p>
-                          <ul>
-                            {/* <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li> */}
-                            {/* <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li> */}
-                            <li><a href="https://linkedin.com/in/geetanjali-alamshah" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
-                          </ul>
-                        </figcaption>
-                      </figure>
-                      <h4>Geetanjali Alamshah (Gee)</h4>
-                      {/*<p>Network Director</p>*/}
-                    </div>
-                  </div>
-
-                  <div className="col-md-4">
+                  <div className="col-md-3">
                     <div className="team-member">
                       <figure>
                         <img src={RC} alt="" class="img-responsive" />
@@ -624,28 +607,7 @@ function App() {
                     </div>
                   </div>
 
-                  {/* <div className="col-md-3">
-                    <div className="team-member">
-                      <figure>
-                        <img src={RB} alt="" class="img-responsive" />
-                        <figcaption>
-                          <p>Temporibus dolor, quisquam consectetur molestias, veniam voluptatum. Beatae alias omnis totam.</p>
-                          <ul>
-                            <li><a href=""><i className="fa fa-facebook fa-2x"></i></a></li>
-                            <li><a href=""><i className="fa fa-twitter fa-2x"></i></a></li>
-                            <li><a href=""><i className="fa fa-linkedin fa-2x"></i></a></li>
-                          </ul>
-                        </figcaption>
-                      </figure>
-                      <h4>Terry Fletcher</h4>
-                      <p>Web Developer</p>
-                    </div>
-                  </div> */}
-                </div>
-
-                <div className="row d-flex-centre-row">
-
-                  <div className="col-md-4">
+                  <div className="col-md-3">
                     <div className="team-member">
                       <figure>
                         <img src={SG} alt="" class="img-responsive" />
@@ -663,20 +625,60 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="col-md-4">
+                  <div className="col-md-3">
                     <div className="team-member">
                       <figure>
-                        <img src={SA} alt="" class="img-responsive" />
+                        <img src={NJ} alt="" class="img-responsive" />
                         <figcaption>
-                          <p>Trinity College School (TCS) Alumni | Squash Player | Health Enthusiast </p>
+                          <p>Computer Engineer | Entrepreneur | Technocrat </p>
                           <ul>
                             {/* <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li> */}
                             {/* <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li> */}
-                            <li><a href="https://linkedin.com/in/geetanjali-alamshah" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                            <li><a href="https://linkedin.com/in/nitin-jha-0915435" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
                           </ul>
                         </figcaption>
                       </figure>
-                      <h4>Sid Alamshah (SA)</h4>
+                      <h4>Nitin Jha (NJ)</h4>
+                      {/*<p>Network Director</p>*/}
+                    </div>
+                  </div>
+
+                </div>
+
+                <div className="row d-flex-centre-row">
+
+                <div className="col-md-3">
+                    <div className="team-member">
+                      <figure>
+                        <img src={RB} alt="" class="img-responsive" />
+                        <figcaption>
+                          <p>President (wpg c&c computers and peripherals pvt Ltd)  | Sales Strategist | Mentor </p>
+                          <ul>
+                            {/* <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li> */}
+                            {/* <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li> */}
+                            <li><a href="https://www.linkedin.com/in/rajeevbajpai" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                          </ul>
+                        </figcaption>
+                      </figure>
+                      <h4>Rajiv Bajpai (RB)</h4>
+                      {/*<p>Head of Strategy</p>*/}
+                    </div>
+                  </div>
+
+                  <div className="col-md-3">
+                    <div className="team-member">
+                      <figure>
+                        <img src={Empty} alt="" class="img-responsive" />
+                        <figcaption>
+                          <p>Head - Forex, Corporate Markets and Bullion at ICICI Bank | Stratergist | Product Manager</p>
+                          <ul>
+                            {/* <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li> */}
+                            {/* <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li> */}
+                            <li><a href="https://www.linkedin.com/in/raghav-singhal-8a76231" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                          </ul>
+                        </figcaption>
+                      </figure>
+                      <h4>Raghav Singhal (RS)</h4>
                       {/*<p>Network Director</p>*/}
                     </div>
                   </div>
