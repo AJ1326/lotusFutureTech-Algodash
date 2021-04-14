@@ -784,7 +784,7 @@ i::before,i::after{
   padding: 0;
 }
 .navbar-brand > img {
-  width: 45%;
+  width: 35%;
 }
 .navbar.fixedmenu .logo-default,
 .navbar  .logo-scrolled{
@@ -4323,7 +4323,7 @@ footer .copyrights > a:focus {
 
 .team-member figcaption ul li {
   display: inline-block;
-  padding: 10px;
+  padding: 20px;
 }
 
 .team-member h4 {
@@ -4333,7 +4333,7 @@ footer .copyrights > a:focus {
 }
 
 .team-member figcaption {
-  padding: 50px;
+  padding: 20px;
   color: transparent;
   background-color: transparent;
   position: absolute;

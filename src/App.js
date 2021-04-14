@@ -616,11 +616,10 @@ function App() {
                           <ul>
                             {/* <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li> */}
                             {/* <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li> */}
-                            <li><a href="https://linkedin.com/in/gaurav-k-gupta-05b12b31" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
                           </ul>
                         </figcaption>
                       </figure>
-                      <h4>Shreedarh Gupta (Shree)</h4>
+                      <h4>Shreedhar Gupta (Shree)</h4>
                       {/*<p>Head of Strategy</p>*/}
                     </div>
                   </div>
@@ -634,11 +633,11 @@ function App() {
                           <ul>
                             {/* <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li> */}
                             {/* <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li> */}
-                            <li><a href="https://linkedin.com/in/nitin-jha-0915435" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/nitin-jha-09154357" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
                           </ul>
                         </figcaption>
                       </figure>
-                      <h4>Nitin Jha (NJ)</h4>
+                      <h4>Nitin Jha</h4>
                       {/*<p>Network Director</p>*/}
                     </div>
                   </div>
@@ -660,7 +659,7 @@ function App() {
                           </ul>
                         </figcaption>
                       </figure>
-                      <h4>Rajiv Bajpai (RB)</h4>
+                      <h4>Rajiv Bajpai</h4>
                       {/*<p>Head of Strategy</p>*/}
                     </div>
                   </div>
@@ -678,7 +677,7 @@ function App() {
                           </ul>
                         </figcaption>
                       </figure>
-                      <h4>Raghav Singhal (RS)</h4>
+                      <h4>Raghav Singhal</h4>
                       {/*<p>Network Director</p>*/}
                     </div>
                   </div>
