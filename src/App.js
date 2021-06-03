@@ -93,7 +93,7 @@ function App() {
                 {/*  <li><a ><i className="fa fa-instagram"></i> </a></li>*/}
                 {/*  <li><a ><i className="fa fa-twitter"></i> </a></li>*/}
                 {/*</ul>*/}
-                <p className="whitecolor mt20">&copy; 2020 MB Solution.</p>
+                <p className="whitecolor mt20">&copy; 2021 MB Solution.</p>
               </div>
             </div>
           </div>
@@ -645,7 +645,7 @@ function App() {
 
                 </div>
 
-                <div className="row d-flex-centre-row">
+                <div className="row d-flex-centre-row mt20">
 
                 <div className="col-md-3">
                     <div className="team-member">
@@ -736,7 +736,7 @@ function App() {
             <div className="row">
               <div className="col-md-12 col-sm-12 text-center pd-2">
                 {/*<img className="lotusFooter" src={lotus} alt="Lotus Futuretech" />*/}
-                <p className="copyrights wow fadeInUp" data-wow-delay="350ms"> &copy; 2020 MB Solution
+                <p className="copyrights wow fadeInUp" data-wow-delay="350ms"> &copy; 2021 MB Solution
                 </p>
               </div>
             </div>
