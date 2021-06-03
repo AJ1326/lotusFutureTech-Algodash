@@ -70,7 +70,7 @@ h1 {
   font-size: 3.75rem;
 }
 h2 {
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 h3 {
   font-size: 1.875rem;
@@ -227,7 +227,7 @@ blockquote.blockquote::before{
   font-weight: 300;
 }
 .font-xlight {
-  font-weight: 200;
+  font-weight: 700;
 }
 .bglight {
   background: #f6f6f6;
@@ -785,6 +785,7 @@ i::before,i::after{
 }
 .navbar-brand > img {
   width: 35%;
+  padding: 5px;
 }
 .navbar.fixedmenu .logo-default,
 .navbar  .logo-scrolled{
@@ -1591,6 +1592,9 @@ i::before,i::after{
 @media screen and (max-width: 768px) {
   #services-slider {
     margin: -70px 0 0;
+  }
+  .background-dark-text-section {
+    background-color: #0c0c0cad !important;
   }
 }
 
@@ -4148,7 +4152,7 @@ footer .copyrights > a:focus {
     font-size: 14px;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   h3 {
     font-size: 1.5rem;
@@ -4202,7 +4206,7 @@ footer .copyrights > a:focus {
 }
 
 .background-dark-text-section {
-  background-color: #00000078;
+  background-color: #f3bc21cf;
 }
 .background-light-text-section {
   background-color: #ffffff6b;
@@ -4228,8 +4232,8 @@ footer .copyrights > a:focus {
   padding: 50px;
 }
 .company-txt-section {
-  line-height: 30px;
-  font-size: 16px;
+  line-height: 35px;
+  font-size: 18px;
 }
 @media screen and (max-width: 768px){
   .intro-text {
@@ -4248,7 +4252,7 @@ footer .copyrights > a:focus {
 }
 
 .logo-container {
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
 .text-center {
@@ -4286,7 +4290,6 @@ footer .copyrights > a:focus {
 }
 
 .team-member {
-  margin: 50px;
   padding: 0;
 }
 
@@ -4298,9 +4301,11 @@ footer .copyrights > a:focus {
 }
 
 .team-member figure img {
-  min-width: 100%;
-  height: 350px;
-  margin-left: -40px;
+  max-width: 100%;
+  height: 260px;
+  width: 260px;
+  margin: 0px 0px -8px 0px;
+  border-radius: 50%;
 }
 
 .team-member figcaption p {
@@ -4333,7 +4338,7 @@ footer .copyrights > a:focus {
 }
 
 .team-member figcaption {
-  padding: 20px;
+  padding: 40px;
   color: transparent;
   background-color: transparent;
   position: absolute;
@@ -4408,4 +4413,17 @@ footer .copyrights > a:focus {
 
 .ml-10 {
   margin-left: 10px;
+}
+
+.btn-gradient-hvr:hover, .btn-gradient-hvr:focus {
+  border-color: #f49201 !important;
+  background: linear-gradient( 
+90deg
+, #ffc107, #ff9800ad) !important;
+}
+
+.btn-gradient-hvr::before {
+  background: linear-gradient( 
+    90deg
+    , #ffc107, #ff9800ad) !important;
 }

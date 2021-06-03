@@ -122,10 +122,11 @@ function App() {
             </div>
           </div>
         </section>
+        
         <section className="single-items center-block item-two parallaxie full-screen" id="freeflow">
           <div className="section-container">
             <div className="row">
-              <div className="col-md-6 col-sm-8 background-dark-text-section company-container-section">
+              <div className="col-md-6 offset-md-6 offset-sm-4 col-sm-8 background-dark-text-section company-container-section">
                 <div className="item-titles whitecolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a>FreeFlow</a>
@@ -143,28 +144,6 @@ function App() {
           </div>
         </section>
 
-        <section className="single-items center-block item-three parallaxie full-screen" id="bitcheck">
-          <div className="section-container">
-            <div className="row">
-              <div className="col-md-6 offset-md-6 col-sm-8 offset-sm-4 background-dark-text-section company-container-section">
-                <div className="item-titles whitecolor text-right">
-                  <h2 className="font-xlight" data-wow-delay="300ms">
-                    <a>Finstr.network</a>
-                  </h2>
-                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
-                      According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.”
-                  </p>
-                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
-                       The BitCheck™️ is a blockchain based, decentralized, secure payment system that negates security problems within all transactions.
-                  </p>
-                  {/* <button className="button btnprimary btn-gradient-hvr" data-wow-delay="400ms"
-                  >View More</button> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        
         <section className="single-items center-block item-four parallaxie full-screen" id="energy">
           <div className="section-container">
             <div className="row">
@@ -182,6 +161,28 @@ function App() {
                   </p>
                   {/* <a className="button btnprimary btn-gradient-hvr wow fadeInUp" data-wow-delay="400ms"
                      href="">View More</a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="single-items center-block item-three parallaxie full-screen" id="bitcheck">
+          <div className="section-container">
+            <div className="row">
+              <div className="col-md-6 offset-sm-4 offset-md-6 col-sm-8 background-dark-text-section company-container-section">
+                <div className="item-titles whitecolor text-left">
+                  <h2 className="font-xlight" data-wow-delay="300ms">
+                    <a>Finstr.network</a>
+                  </h2>
+                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
+                      According to Medici, “Banking-as-a-service (BaaS) is an end-to-end process where third parties – FinTech, non-FinTech, developers, etc. – can access and execute financial services capabilities without having to develop them organically.”
+                  </p>
+                  <p className="top25 bottom25 company-txt-section" data-wow-delay="350ms">
+                       The BitCheck™️ is a blockchain based, decentralized, secure payment system that negates security problems within all transactions.
+                  </p>
+                  {/* <button className="button btnprimary btn-gradient-hvr" data-wow-delay="400ms"
+                  >View More</button> */}
                 </div>
               </div>
             </div>
@@ -211,8 +212,8 @@ function App() {
         <section className="single-items center-block item-six parallaxie full-screen" id="blockchain">
           <div className="section-container">
             <div className="row">
-              <div className="col-md-6 offset-md-6 col-sm-8 background-dark-text-section company-container-section">
-                <div className="item-titles whitecolor text-right">
+              <div className="col-md-6 col-sm-8 background-dark-text-section company-container-section">
+                <div className="item-titles whitecolor text-left">
                   <h2 className="font-xlight" data-wow-delay="300ms">
                     <a>Blockchain for all</a>
                   </h2>
@@ -534,7 +535,7 @@ function App() {
           </div>
           <div className="section-container">
             <div className="row">
-              <div className="col-md-6 background-dark-text-section col-sm-8 company-container-section">
+              <div className="col-md-6 offset-md-6 offset-sm-4 background-dark-text-section col-sm-8 company-container-section">
                 <div className="item-titles whitecolor">
                   <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">
                     <a
@@ -711,7 +712,7 @@ function App() {
         {/*  <div className="container">*/}
         {/*    <div className="row">*/}
         {/*      <div className="col-md-5 offset-md-7 col-sm-8 offset-sm-4">*/}
-        {/*        <div className="item-titles whitecolor text-right">*/}
+        {/*        <div className="item-titles whitecolor text-left">*/}
         {/*          <h2 className="font-xlight wow fadeInUp" data-wow-delay="300ms">*/}
         {/*            <a data-fancybox="group-nine"*/}
         {/*               href="https://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg">Small <span>Businesses</span></a>*/}
