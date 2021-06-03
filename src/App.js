@@ -69,10 +69,10 @@ function App() {
                     <a className="nav-link pagescroll" href="#freeflow">FreeFlow</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#bitcheck">Finstr.network</a>
+                    <a className="nav-link pagescroll" href="#energy">Energy as a Service</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pagescroll" href="#energy">Energy as a Service</a>
+                    <a className="nav-link pagescroll" href="#bitcheck">Finstr.network</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link pagescroll" href="#blockchain">Blockchain for all</a>
